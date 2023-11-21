@@ -1,0 +1,48 @@
+Design considerations:
+- dynamically typed
+- garbage collected
+- replaces py3 for simple scripts
+- written mostly with vim!
+
+Data types:
+- floating point
+- strings
+- nil/none/null
+- tuples (pattern matching?)
+- named tuples (here too?)
+
+Expressions:
+- +, -, *, /, //, %
+- <, <=, >, >=
+- and, or, !, ==, <>
+
+Statements:
+- {} denotes a block (conflicted...)
+
+Variables:
+- assignment with =, types optional (but encouraged?)
+- alphanumeric and _ permitted for names
+
+Control flow:
+- if condition then {} else {}
+- while condition do {}
+- for i in a..b do {}
+    - for i, i+1 in a..b do {}
+    - think about list comprehensions, pattern matching
+- ternary? think about "everything is an expression"
+
+Functions:
+- F denotes function (easy to type)
+- F ident(...) { R val }
+- closures, higher-order funcs, etc.
+
+Core:
+- data structures
+  - python collections  
+  - add ordered structures!
+- math
+  - trig functions
+  - exp, log, floor, ceil
+  - random numbers
+- file I/O
+- networking? (http stuff)

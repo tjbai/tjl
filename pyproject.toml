@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 
+[tool.poetry.scripts]
+tjl = "tjl.tjl:main"
 
 [build-system]
 requires = ["poetry-core"]
